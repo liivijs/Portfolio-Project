@@ -1,0 +1,49 @@
+@media screen and (max-width: 359px) {
+	.logo {
+		height: 80px;
+		width: auto;
+	}
+	.header-text {
+		font-size: 14px;
+	}
+	h2 {
+		font-size: 17px;
+	}
+	.project-image {
+		height: 80%;
+  		width: 80%;
+}
+}
+
+
+@media screen and (min-width: 360px) {
+	.logo {
+		height: 100px;
+		width: auto;
+	}
+	.header-text {
+		font-size: 20px;
+	}
+}
+
+
+@media	screen and (min-width: 801px) {
+	body {
+		width: 900px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.header-text {
+		font-size: 25px;
+
+}
+	.logo {
+		height: 130px;
+		width: auto;
+	}
+	footer {
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
